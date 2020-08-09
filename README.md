@@ -1,6 +1,5 @@
 # CRUD
 <p><strong>Exemplo de CRUD utilizando Python e SQL</strong></p>
-<br>
-<p>Bibliotecas utilizadas</p>
-<p>Flask: para a página web</p>
-<p>SQLAlchemy: para a criação do Banco de dados</p>
+<p><strong>Bibliotecas utilizadas</strong></p>
+<p><strong>Flask:</strong> para a página web</p>
+<p><strong>SQLAlchemy:</strong> para a criação do Banco de dados</p>
