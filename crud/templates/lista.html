@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Clientes</title>
+    </head>
+    <body>
+        <h1>Lista de Clientes</h1>
+        <br>
+        <table border="4">
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Telefone</td>
+                <td>CPF</td>
+                <td>Email</td>
+                <td>Excluir</td>
+                <td>Atualizar</td>
+            </tr>
+            <!--Pega as informações do banco de dados-->
+            {% for pessoa in pessoas %}
+            <tr>
+                <td>{{ pessoa._id }}</td>
+                <td>{{ pessoa.nome }}</td>
+                <td>{{ pessoa.telefone }}</td>
+                <td>{{ pessoa.cpf }}</td>
+                <td>{{ pessoa.email }}</td>
+                <td><a href="/excluir/{{ pessoa._id }}">X</a></td>
+                <td><a href="/atualizar/{{ pessoa._id }}">Atualizar</a></td>
+            </tr>
+            {% endfor %}
+            <!--Termina o for-->
+        </table>
+        <a href="/">Voltar</a>
+    </body>
+</html>
