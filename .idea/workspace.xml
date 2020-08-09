@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c2a0dca-4c50-4221-b29a-b3f69724b080" name="Default Changelist" comment="" />
+    <list default="true" id="2c2a0dca-4c50-4221-b29a-b3f69724b080" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <list id="71cd96b7-a24d-49b9-8b65-3fb84c38adec" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1597009720275</updated>
     </task>
+    <task id="LOCAL-00001" summary="CRUD com Python">
+      <created>1597012410680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597012410680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD com Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD com Python" />
   </component>
 </project>
